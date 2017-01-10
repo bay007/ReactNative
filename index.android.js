@@ -3,7 +3,7 @@
  * https://github.com/facebook/react-native
  * @flow
  */
-/*
+
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -49,18 +49,5 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
-
-AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
-*/
-import React, { Component } from 'react';
-import { AppRegistry, Text } from 'react-native';
-
-class AwesomeProject extends Component {
-  render() {
-    return (
-      <Text>Hello world!</Text>
-    );
-  }
-}
 
 AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
